@@ -182,6 +182,17 @@ hunter_add_version(
     e5b797dbc4e6ad92d0924ae86c130be4354c35b6
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    Protobuf
+    VERSION
+    "27.1-p0"
+    URL
+    "https://github.com/jg-x2x/protobuf/archive/refs/tags/v27.1-p0.tar.gz"
+    SHA1
+    346e529689bee5c359458908c5d17b5e14ab12f9
+)
+
 string(
     COMPARE EQUAL "${CMAKE_SYSTEM_NAME}" "WindowsStore" _hunter_windows_store
 )
